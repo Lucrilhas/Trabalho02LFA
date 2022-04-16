@@ -63,7 +63,7 @@ a partir de comando via console ou utilizando uma IDE.
 O arquivo '_ _ init_ _.py' serve apenas como uma função incial para chamar as outras funções.
 
 Após a execução o código irá ler e interpretar os dados de entrada, interpretando-o e 
-criando o resto dos dados como Alfabetos, Estados e Tipo.
+criando o resto dos dados como Alfabetos, Estados.
 
 Toda a parte de leitura e execução do arquivo de entrada se encontra no arquivo 'textos.py' e
 os dados ficam salvos como instancia da classe Autonomo que se encontra no arquivo 'automato.py'.
