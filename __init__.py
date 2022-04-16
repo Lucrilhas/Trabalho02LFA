@@ -7,8 +7,8 @@ if __name__ == '__main__':
     for automato in automatos:
         # automato.printa()
         Simulador(automato, prints=False).inicia()
-        for r in automato.resultados:
-            print(r)
+        # for r in automato.resultados:
+        #     print(r)
 
     print('Imprimindo resultados em saida.txt')
     automatos_to_text(automatos)        # Salva os resultados obtidos de todas as entradas no arquivo "saida.txt"

@@ -10,7 +10,7 @@ class Simulador:
             self.aut.resultados.append(self.resolve_palavra(palavra))
 
     def resolve_palavra(self, palavra):
-        print(palavra)
+        # print(palavra)
         fila = [(self.aut.e_ini[0], palavra, Pilha(self.aut.pil_ini[:]))]
         # print(fila)
         # print()
