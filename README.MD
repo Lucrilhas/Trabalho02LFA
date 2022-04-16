@@ -35,7 +35,7 @@ O seguinte automato de pilha pode ser inserido como:
 ![Exemplo PDFA](imgs/pdfa01.svg)
 
 ```
-Exemplo Palindromo
+Linguagem L = a^n b^n | n >= 0
 {
     "transicoes":[
         q0, q0, a, Z, AZ
